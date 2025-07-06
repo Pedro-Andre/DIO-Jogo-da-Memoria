@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memória</title>
+    <link
+      rel="icon"
+      href="https://assets.streamlinehq.com/image/private/w_512,h_512,ar_1/f_auto/v1/icons/5/joker-oij0oyeg0klikwxnkadvb.png/joker-wuqrehpcf2p0pd6cyemsgu.png?_a=DATAdtXyZAA0"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <div class="modal-container">
+      <div class="modal">
+        <h2 class="modal-title">Parabéns! Você achou todos os pares!</h2>
+        <button class="reset-btn" id="modal-btn" onclick="closeModal">
+          Jogar novamente
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="title-game">Jogo da memória</h2>
+      <div class="game"></div>
+      <button class="reset-btn" onclick="window.location.reload()">
+        Reiniciar
+      </button>
+    </div>
+
+    <!-- SCRIPT -->
+    <script defer src="src/scripts/engine.js"></script>
+  </body>
+</html>
