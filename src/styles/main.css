@@ -131,7 +131,7 @@ h2 {
   max-width: 90rem;
   height: 60rem;
   color: #0af;
-  background: #1111119f;
+  background: #222;
   border-radius: 2rem;
   margin-inline: auto;
   margin-top: 10%;
@@ -145,4 +145,20 @@ h2 {
 
 .modal .modal-title {
   font-size: 4rem;
+}
+
+@media (max-width: 500px) {
+  .item {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  .game {
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    column-gap: 0.5rem;
+  }
+
+  .title-game {
+    text-align: center;
+  }
 }
