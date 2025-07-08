@@ -18,3 +18,8 @@ Este é um projeto simples de **Jogo da Memória**, desenvolvido durante um **bo
 - **JavaScript (puro)** – Lógica do jogo, manipulação de eventos e DOM
 
 ## 📸 Preview
+![image](https://github.com/user-attachments/assets/4de8415d-1475-480d-b9d6-3fec82789244)
+![image](https://github.com/user-attachments/assets/972bed6b-ca1e-4675-aa4d-a3a7eb026d04)
+
+
+
